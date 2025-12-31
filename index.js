@@ -4,5 +4,6 @@ const { Moment } = require('./src/moment')
 
 module.exports = {
     File,
-    Io
+    Io,
+    Moment
 }
