@@ -28,11 +28,24 @@ module.exports.Io = {
         ].join('\n'));
     },
 
+    hr: (borderChar = '-', length = 50) => {
+        Console.log(
+            `${borderChar.repeat(length)}`
+        )
+    },
+
     log: (...message) => {
         Console.log(
             styleText('green', `${message.join(' ')}`)
         )
     },
+
+    log: (...message) => {
+        Console.log(
+            styleText('green', `${message.join(' ')}`)
+        )
+    },
+
     success: (message) => {
         Console.log(
             styleText('greenBright', `[OK] ${message}`)
