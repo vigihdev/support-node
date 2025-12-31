@@ -1,0 +1,15 @@
+# exclude everything except directory
+
+.DS_Store
+/.amazonq
+/.cursor
+/.git
+/.vscode
+GEMINI.md
+/node_modules
+package-lock.json
+/nodemon.js
+/docs
+/dist
+/builds
+dev.js
