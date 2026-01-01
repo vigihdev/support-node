@@ -4,6 +4,7 @@ const path = require('node:path');
 const fs = require('node:fs');
 
 module.exports.File = {
+
     exist: function (filePath) {
         return fs.existsSync(filePath);
     },
